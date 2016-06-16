@@ -33,7 +33,12 @@ ul.top-nav li:hover{
   width: 100%;
   height: 500px;
   background: blue;
+  display: inline-flex;
 }
+  .hero h1{
+    position: relative;
+    margin-top: 40%;
+  }
 .tout{
   width: 48%;
   height: 200px;
