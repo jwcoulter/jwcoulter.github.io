@@ -29,3 +29,19 @@ ul.top-nav li{
 ul.top-nav li:hover{
   color: #dedede;
 }
+.hero{
+  width: 100%;
+  height: 500px;
+  background: blue;
+}
+.tout{
+  width: 48%;
+  height: 200px;
+  float: left;
+}
+.tout-1{
+  background: green;
+}
+.tout-2{
+  background: red;
+}
