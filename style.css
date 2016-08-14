@@ -57,3 +57,6 @@ ul.top-nav li:hover{
 .tout-2{
   background: red;
 }
+.hidden{
+  display: none;
+}
