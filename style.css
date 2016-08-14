@@ -1,10 +1,9 @@
-body, div, p, span, ul, li, ol,
-h1, h2, h3, h4, h5, h6, p, dl, dt, dd, 
-address, form, fieldset, hr, blockquote{
+*,
+*:before,
+*:after{
   margin: 0;
   padding: 0;
   border: 0;
-  z-index: 0;
 }
 
 html{
@@ -42,7 +41,6 @@ ul.top-nav li:hover{
     margin: 10% 10% 0 10%;
     padding: 20px;
     text-align: center;
-    transform: translateX(50px);
   }
   .hero h1{
     position: relative;
