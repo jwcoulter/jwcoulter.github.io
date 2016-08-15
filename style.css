@@ -9,6 +9,9 @@
 html{
   background-color: #dedede;
 }
+img {
+  width: 100%;
+}
 ul.top-nav{
   /*background-color: #696969;*/
   background-color: rgba(105, 105, 105, 0.8);
