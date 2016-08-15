@@ -54,12 +54,12 @@ ul.top-nav{
   width: 100%;
   display: inline-block;
 }
-  .black-gradient{
+  .hero img{
     background: transparent; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1)); /*Safari 5.1-6*/
-    background: -o-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1)); /*Opera 11.1-12*/
-    background: -moz-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1)); /*Fx 3.6-15*/
-    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1)); /*Standard*/
+    background: -webkit-linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,.25) 86%, rgba(0,0,0,1)100%); /*Safari 5.1-6*/
+    background: -o-linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,.25) 86%, rgba(0,0,0,1)100%); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,.25) 86%, rgba(0,0,0,1)100%); /*Fx 3.6-15*/
+    background: linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,.25) 86%, rgba(0,0,0,1)100%); /*Standard*/
     top: -70px;
     height: 70px;
     position: relative;
