@@ -90,11 +90,19 @@ ul.top-nav{
 /* END HOME SECTION */
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 725px) {
+@media screen and (max-width: 40.063em) {
   .hero{
-  background: url('images/coffee_shop-mb.jpg') no-repeat 0 0;
-  background-size: contain;
-}
+    background: url('images/coffee_shop-mb.jpg') no-repeat 0 0;
+    height: 425px;
+    display: inline-block;
+    position: relative;
+    height: 100%;
+  }
+    .hero-text{
+      width: 100%;
+      margin-top: 330px;
+      display: block;
+    }
 
 }
 /* END MEDIA QUERIES
