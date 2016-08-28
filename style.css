@@ -4,24 +4,27 @@
   * Last Update: Aug 14 2016
 */
 
-/* General House keeping */
+/* Utilities */
 *,
 *:before,
 *:after{
   margin: 0;
   padding: 0;
   border: 0;
+  display: block;
+  box-sizing: border-box;
 }
 html{
   background-color: #dedede;
 }
 img {
   width: 100%;
+  height: 100%;
 }
 .hidden{
   display: none;
 }
-/* END Genreal Housekeeping */
+/* END Utilities */
 
 /* TOP NAV */
 ul.top-nav{
