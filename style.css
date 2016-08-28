@@ -54,7 +54,8 @@ ul.top-nav{
 /* HOME SECTION */
 /* WELCOME HERO */
 .hero{
-  background: url('images/coffee_shop.jpg') no-repeat 0 0 cover;
+  background: url('images/coffee_shop.jpg') no-repeat 0 0;
+  background-size: cover;
   width: 100%;
   height: 500px;
 }
@@ -91,7 +92,8 @@ ul.top-nav{
 /* MEDIA QUERIES */
 @media screen and (max-width: 725px) {
   .hero{
-  background: url('images/coffee_shop-mb.jpg') no-repeat 0 0 contain;
+  background: url('images/coffee_shop-mb.jpg') no-repeat 0 0;
+  background-size: contain;
 }
 
 }
