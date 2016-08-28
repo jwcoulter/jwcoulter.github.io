@@ -66,7 +66,8 @@ ul.top-nav{
     padding: 20px;
     text-align: center;
     width: 50%;
-    height: 100%;
+    position: absolute;
+    margin-top: 45px;
 }
   .hero h1{
     position: relative;
@@ -90,9 +91,10 @@ ul.top-nav{
 /* END HOME SECTION */
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 40.063em) {
+@media screen and (max-width: 675px) {
   .hero{
     background: url('images/coffee_shop-mb.jpg') no-repeat 0 0;
+    background-size: cover;
     height: 425px;
     display: inline-block;
     position: relative;
@@ -102,6 +104,7 @@ ul.top-nav{
       width: 100%;
       margin-top: 330px;
       display: block;
+      position: relative;
     }
 
 }
